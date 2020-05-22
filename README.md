@@ -11,7 +11,7 @@ incluíndo **latitude**, **longitude** e **place_id** (que usei nos requests par
 		 Não fiz nenhum algorítimo super específico, até porque demandaria bastante tempo. Utilizei a própria API do **google directions** para fazer essa parte, usando o **way points optimization** da própria API.
 
 *Obs: Usei como **destination** o primeiro registro da lista.
-Eu poderia ter feito uma request para a API para descobrir o endereço mais longe e usá-lo como **destination**. Não fiz para otimizar o tempo.*
+Eu poderia ter feito uma request para a API para descobrir o endereço mais longe e usá-lo como **destination**. Não fiz para otimizar o tempo de desenvolvimento.*
 
 #### O que não fiz
 
