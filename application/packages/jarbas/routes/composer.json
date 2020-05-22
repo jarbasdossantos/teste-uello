@@ -1,0 +1,28 @@
+{
+    "name": "jarbas/routes",
+    "description": "Just a simple package made for Uello's developer test",
+    "type": "library",
+    "require": {
+        "alexpechkarev/google-maps": "^7.1",
+        "bmichotte/dijkstra": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Jarbas",
+            "email": "jarbas@blasterweb.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Jarbas\\Routes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jarbas\\Routes\\ServiceProviders\\UelloServiceProvider"
+            ]
+        }
+    }
+}
